@@ -12,13 +12,13 @@
             <Label
                 Text="日付："
                 />
-            <DatePicker Format="yyyy/MM/dd"/>
+            <DatePicker Format="yyyy/MM/dd" x:Name="Date"/>
             <Label
                 Text="件名："/>
-            <Entry />
+            <Entry x:Name="Subject"/>
             <Label
                 Text="メモ："/>
-            <Entry />
+            <Entry x:Name="Text"/>
 
             <Button
                 x:Name="BtnRead"
